@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Todo List App</title>
+
+        <!-- bootstrap and the js file -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <!-- title -->
+        <div id="title" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Todo List App</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- form to add a todo -->
+        <div id="form" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="form-todo" class="form-inline text-center">
+                        <div class="form-group">
+                            <input id="todo" type="text" class="form-control" placeholder="Enter a todo">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Add</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- stores the todos -->
+        <div id="todos" class="container">
+            <span class="border border-primary">
+                <div class="text-center" id="todoList"></div>
+            </span>
+        </div>
+
+    </body>
+    <script src="app.js"></script>
+</html>
